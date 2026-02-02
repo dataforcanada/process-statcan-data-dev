@@ -5,7 +5,7 @@
 
 ## About
 
-**process-statcan-data-dev** is a set of scripts that helps you load and prepare Statistics Canada data for analysis. It performs schema normalization, field name standardization, and adds derived fields (such as DGUIDs) to improve consistency, interoperability, and usability across datasets.
+**process-statcan-data-labs** is a set of scripts that helps you load and prepare Statistics Canada data for analysis. It performs schema normalization, field name standardization, and adds derived fields (such as DGUIDs) to improve consistency, interoperability, and usability across datasets.
 
 All output datasets are written in GeoParquet format to support modern geospatial workflows and ensure broad compatibility across platforms.
 
@@ -24,10 +24,10 @@ This project uses a Dev Container environment for setup and execution. If you ar
 
 ```shell
 # Clone the repository
-git clone https://github.com/dataforcanada/process-statcan-data-dev.git
+git clone https://github.com/dataforcanada/process-statcan-data-labs.git
 
 # Navigate to the project directory
-cd process-statcan-data-dev
+cd process-statcan-data-labs
 
 # In Dev Container
 ./main.sh
