@@ -9,7 +9,7 @@
 
 All output datasets are written in GeoParquet format to support modern geospatial workflows and ensure broad compatibility across platforms.
 
-This project processes the following datasets:
+This project aims to process the following datasets:
 
 - **Geographic Boundaries** (2001–2021)
 - **Census of Population** (2001–2021)
